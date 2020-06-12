@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://images.app.goo.gl/ZFttpv8ysFNzWRhW7" alt="tautulli">
+  <img src="https://lh3.googleusercontent.com/gapGAzirFROiLwta-YME8RB5GLxBT2na9C5OL3cqd1e6xARrer1yNyHxw-fmA6qrjw=s360-rw" alt="tautulli">
   <br />
   Tautulli Snap
 </h1>
