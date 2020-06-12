@@ -16,6 +16,6 @@ parts:
 
 apps:
   tautulli:
-    command: Tautulli.py --datadir $SNAP_DATA/Tautulli
+    command: Tautulli.py --datadir $SNAP_COMMON/Tautulli
     daemon: simple
     plugs: [network, network-bind]
