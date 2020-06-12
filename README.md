@@ -23,16 +23,15 @@ distributions.</p>
 
     sudo snap install tautulli
 
-<!-- Uncomment and modify this when your snap is available on the store
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/my-snap-name)
--->
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/tautulli)
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
+## Preview
+
+![Tautulli Homepage](https://tautulli.com/images/screenshots/activity-compressed.jpg?v=2)
+
 ## Remaining tasks
-<!-- Uncomment and modify this when you have a screenshot
-![my-snap-name](screenshot.png?raw=true "my-snap-name")
--->
 
 Snapcrafters ([join us](https://forum.snapcraft.io/t/join-snapcrafters/1325)) 
 are working to land snap install documentation and
