@@ -2,6 +2,10 @@
   <img src="https://lh3.googleusercontent.com/gapGAzirFROiLwta-YME8RB5GLxBT2na9C5OL3cqd1e6xARrer1yNyHxw-fmA6qrjw=s360-rw" alt="tautulli">
   <br />
   Tautulli Snap
+  <br />
+  <a href="https://snapcraft.io/tautulli">
+  <img alt="tautulli" src="https://snapcraft.io/tautulli/badge.svg" />
+  </a>
 </h1>
 
 <p align="center"><b>This is the snap for tautulli</b>, <i>“A Python based monitoring and tracking tool for Plex Media Server.”</i>. It works on Ubuntu, Fedora, Debian, and other major Linux
@@ -23,7 +27,7 @@ distributions.</p>
 
     sudo snap install tautulli
 
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/tautulli)
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/tautulli)
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
