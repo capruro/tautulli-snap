@@ -1,5 +1,5 @@
-name: tautulli # you probably want to 'snapcraft register <name>'
-version: '0.4' # just for humans, typically '1.2+git' or '1.3.2'
+name: tautulli
+version: 'v2.2.4'
 summary: A Python based monitoring and tracking tool for Plex Media Server. # 79 char long summary
 description: |
   Tautulli is a 3rd party application that you can run alongside your Plex Media Server to monitor activity and track various statistics. 
@@ -7,14 +7,15 @@ description: |
   The only thing missing is "why they watched it", but who am I to question your 42 plays of Frozen. 
   All statistics are presented in a nice and clean interface with many tables and graphs, which makes it easy to brag about your server to everyone else.
 
-confinement: strict # use 'strict' once you have the right plugs and slots
+confinement: strict
+grade: stable
 base: core18
 
 parts:
   tautulli:
     plugin: dump
     source: https://github.com/Tautulli/Tautulli.git
-    stage-packages: [python, python-setuptools, git]
+    stage-packages: [python, python-setuptools]
 
 apps:
   tautulli:
