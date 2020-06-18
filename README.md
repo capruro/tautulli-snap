@@ -29,6 +29,8 @@ distributions.</p>
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/tautulli)
 
+[![Snap Status](https://build.snapcraft.io/badge/capruro/tautulli-snap.svg)](https://build.snapcraft.io/user/capruro/tautulli-snap)
+
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
 ## Preview
