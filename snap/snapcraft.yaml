@@ -28,6 +28,6 @@ parts:
 
 apps:
   tautulli:
-    command: Tautulli.py --datadir $SNAP_COMMON/Tautulli --config $SNAP_COMMON/Tautulli/config.ini --quiet --nolaunch
+    command: python3 $SNAP/Tautulli.py --datadir $SNAP_COMMON/Tautulli --config $SNAP_COMMON/Tautulli/config.ini --quiet --nolaunch
     daemon: simple
     plugs: [network, network-bind]
