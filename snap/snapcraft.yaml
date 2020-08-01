@@ -9,7 +9,7 @@ description: |
 
 confinement: strict
 grade: stable
-base: core20
+base: core18
 
 parts:
   tautulli:
@@ -28,6 +28,6 @@ parts:
 
 apps:
   tautulli:
-    command: $SNAP/Tautulli.py --datadir $SNAP_COMMON/Tautulli --config $SNAP_COMMON/Tautulli/config.ini --quiet --nolaunch
+    command: python3 $SNAP/Tautulli.py --datadir $SNAP_COMMON/Tautulli --config $SNAP_COMMON/Tautulli/config.ini --quiet --nolaunch
     daemon: simple
     plugs: [network, network-bind]
