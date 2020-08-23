@@ -17,7 +17,7 @@ parts:
     source: https://github.com/Tautulli/Tautulli.git
     source-type: git
     source-branch: master
-    stage-packages: [python3, python3-setuptools]
+    stage-packages: [python3, python3-setuptools, python3-openssl]
     override-build: |
       snapcraftctl build
       sed -i "s|'CHECK_GITHUB': (int, 'General', 1),|'CHECK_GITHUB': (int, 'General', 0),|g" $SNAPCRAFT_PART_INSTALL/plexpy/config.py
