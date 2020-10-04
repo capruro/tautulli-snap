@@ -77,6 +77,7 @@ If you have any questions, [post in the Snapcraft forum](https://forum.snapcraft
 <!--
 ## The Snapcrafters
 
+
 | [![Your Name](https://gravatar.com/avatar/bc0bced65e963eb5c3a16cab8b004431/?s=128)](https://github.com/yourname/) |
 | :---: |
 | [Your Name](https://github.com/yourname/) |
