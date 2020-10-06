@@ -8,7 +8,6 @@ description: |
   All statistics are presented in a nice and clean interface with many tables and graphs, which makes it easy to brag about your server to everyone else.
 
 confinement: strict
-grade: $grade
 base: core18
 
 parts:
