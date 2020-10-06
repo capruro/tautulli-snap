@@ -8,7 +8,7 @@ description: |
   All statistics are presented in a nice and clean interface with many tables and graphs, which makes it easy to brag about your server to everyone else.
 
 confinement: strict
-grade: stable
+grade: $grade
 base: core18
 
 parts:
@@ -25,6 +25,7 @@ parts:
       sed -i 's|<input type="checkbox" name="check_github" id="check_github" value="1" checked>||g' $SNAPCRAFT_PART_INSTALL/data/interfaces/default/welcome.html
       sed -i 's|name="plexpy_auto_update" value="1"|name="plexpy_auto_update" value="0"|g' $SNAPCRAFT_PART_INSTALL/data/interfaces/default/settings.html
       version="$(git describe --always | sed -e 's/-/+git/;y/-/./')"
+      [ -n "$(echo $version | grep "+git")" ] && grade=devel || grade=stable
       snapcraftctl set-version "$version"
 
 apps:
