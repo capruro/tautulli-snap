@@ -19,7 +19,7 @@ parts:
     stage-packages: [python3, python3-setuptools, python3-openssl]
     override-pull: |
       snapcraftctl pull
-      version="$(git describe --always | sed -e 's/-/+git/;y/-/./')"
+      version="$(git describe --tag | sed -e 's/-/+git/;y/-/./')"
       [ -n "$(echo $version | grep "+git")" ] && grade=devel || grade=stable
       snapcraftctl set-version "$version"
       snapcraftctl set-grade "$grade"
